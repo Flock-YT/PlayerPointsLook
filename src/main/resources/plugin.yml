@@ -1,0 +1,7 @@
+name: PlayerPointsLook
+version: '${project.version}'
+main: me.lele.PlayerPointsLook
+
+
+depend:
+  - PlayerPoints

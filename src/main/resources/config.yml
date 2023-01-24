@@ -1,0 +1,11 @@
+#这里写服务器名字
+Servername: 'null'
+#这里写服务器的类型
+Servertype: 'null'
+
+#Mysql
+address-port: '127.0.0.1:3306'
+user: 'root'
+password: 'root'
+database: 'playerpoints_look'
+
