@@ -3,7 +3,7 @@ package me.lele;
 import me.lele.listener.PlayerListener;
 import me.lele.listener.PlayerPointsListener;
 import me.lele.sql.DatabaseInitialization;
-import me.lele.tools.GetConfig;
+import me.lele.util.GetConfig;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;

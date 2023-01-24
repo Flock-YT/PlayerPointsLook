@@ -1,4 +1,4 @@
-package me.lele.tools;
+package me.lele.util;
 
 import static me.lele.PlayerPointsLook.ymlconfig;
 

@@ -9,8 +9,8 @@ import org.bukkit.event.Listener;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-import static me.lele.tools.GetConfig.servername;
-import static me.lele.tools.GetConfig.servertype;
+import static me.lele.util.GetConfig.servername;
+import static me.lele.util.GetConfig.servertype;
 
 public class PlayerPointsListener implements Listener {
 

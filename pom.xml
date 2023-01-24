@@ -6,7 +6,7 @@
 
     <groupId>me.lele</groupId>
     <artifactId>PlayerPointsLook</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>PlayerPointsLook</name>
@@ -42,8 +42,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>cc.carm.lib.easysql-hikaricp</pattern>
-                                    <shadedPattern>me.lele.PlayerPointsLook.shaded.easysql-hikaricp
-                                    </shadedPattern>
+                                    <shadedPattern>me.lele.PlayerPointsLook.shaded.easysql-hikaricp</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>
@@ -100,5 +99,11 @@
             <version>0.4.6</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.31</version>
+        </dependency>
     </dependencies>
 </project>

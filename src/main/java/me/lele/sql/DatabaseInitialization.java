@@ -11,7 +11,7 @@ import org.bukkit.plugin.Plugin;
 
 import java.util.concurrent.ExecutionException;
 
-import static me.lele.tools.GetConfig.*;
+import static me.lele.util.GetConfig.*;
 
 public class DatabaseInitialization {
 
